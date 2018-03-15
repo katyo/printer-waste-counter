@@ -1,0 +1,19 @@
+{
+  "name": "printer-waste-ink-counter",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "parse": "ts-node parser",
+    "count": "ts-node counter"
+  },
+  "author": "K. <kayo@illumium.org>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/colors": "^1.1.3",
+    "@types/node": "^9.4.7",
+    "colors": "^1.2.1",
+    "net-snmp": "^1.2.2",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  }
+}
